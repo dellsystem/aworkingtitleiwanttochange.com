@@ -29,3 +29,75 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+@keyframes fadein {
+  from { opacity: 0; }
+  40% { opacity: 0; }
+  50% { opacity: 1; }
+  to { opacity: 0; }
+}
+
+#messages {
+  font-size: 20px;
+}
+
+#message1 {
+    -webkit-animation: fadein 3s linear 3s infinite;
+    -moz-animation: fadein 3s linear 3s infinite;
+    -ms-animation: fadein 3s linear 3s infinite;
+    -o-animation: fadein 3s linear 3s infinite;
+    animation: fadein 3s linear 3s infinite;
+    opacity: 0;
+}
+
+#message2 {
+    text-align: center;
+    -webkit-animation: fadein 5s linear 3s infinite;
+    -moz-animation: fadein 5s linear 3s infinite;
+    -ms-animation: fadein 5s linear 3s infinite;
+    -o-animation: fadein 5s linear 3s infinite;
+    animation: fadein 5s linear 3s infinite;
+    opacity: 0;
+}
+
+#message3 {
+    text-align: right;
+    -webkit-animation: fadein 7s linear 3s infinite;
+    -moz-animation: fadein 7s linear 3s infinite;
+    -ms-animation: fadein 7s linear 3s infinite;
+    -o-animation: fadein 7s linear 3s infinite;
+    animation: fadein 7s linear 3s infinite;
+    opacity: 0;
+}
+
+#message4 {
+    transform: scale(-1, 1);
+    -webkit-animation: fadein 11s linear 3s infinite;
+    -moz-animation: fadein 11s linear 3s infinite;
+    -ms-animation: fadein 11s linear 3s infinite;
+    -o-animation: fadein 11s linear 3s infinite;
+    animation: fadein 11s linear 3s infinite;
+    opacity: 0;
+}
+
+#message5 {
+    transform: scale(1, -1);
+    text-align: center;
+    -webkit-animation: fadein 13s linear 3s infinite;
+    -moz-animation: fadein 13s linear 3s infinite;
+    -ms-animation: fadein 13s linear 3s infinite;
+    -o-animation: fadein 13s linear 3s infinite;
+    animation: fadein 13s linear 3s infinite;
+    opacity: 0;
+}
+
+#message6 {
+    transform: scale(-1, -1);
+    text-align: right;
+    -webkit-animation: fadein 17s linear 3s infinite;
+    -moz-animation: fadein 17s linear 3s infinite;
+    -ms-animation: fadein 17s linear 3s infinite;
+    -o-animation: fadein 17s linear 3s infinite;
+    animation: fadein 17s linear 3s infinite;
+    opacity: 0;
+}
