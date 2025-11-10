@@ -39,6 +39,8 @@ a:hover {
 
 #messages {
   font-size: 20px;
+  line-height: 40px;
+  text-transform: uppercase;
 }
 
 #message1 {
@@ -52,16 +54,6 @@ a:hover {
 
 #message2 {
     text-align: center;
-    -webkit-animation: fadein 5s linear 3s infinite;
-    -moz-animation: fadein 5s linear 3s infinite;
-    -ms-animation: fadein 5s linear 3s infinite;
-    -o-animation: fadein 5s linear 3s infinite;
-    animation: fadein 5s linear 3s infinite;
-    opacity: 0;
-}
-
-#message3 {
-    text-align: right;
     -webkit-animation: fadein 7s linear 3s infinite;
     -moz-animation: fadein 7s linear 3s infinite;
     -ms-animation: fadein 7s linear 3s infinite;
@@ -70,8 +62,8 @@ a:hover {
     opacity: 0;
 }
 
-#message4 {
-    transform: scale(-1, 1);
+#message3 {
+    text-align: right;
     -webkit-animation: fadein 11s linear 3s infinite;
     -moz-animation: fadein 11s linear 3s infinite;
     -ms-animation: fadein 11s linear 3s infinite;
@@ -80,25 +72,35 @@ a:hover {
     opacity: 0;
 }
 
+#message4 {
+    transform: scale(-1, 1);
+    -webkit-animation: fadein 15s linear 3s infinite;
+    -moz-animation: fadein 15s linear 3s infinite;
+    -ms-animation: fadein 15s linear 3s infinite;
+    -o-animation: fadein 15s linear 3s infinite;
+    animation: fadein 15s linear 3s infinite;
+    opacity: 0;
+}
+
 #message5 {
     transform: scale(1, -1);
     text-align: center;
-    -webkit-animation: fadein 13s linear 3s infinite;
-    -moz-animation: fadein 13s linear 3s infinite;
-    -ms-animation: fadein 13s linear 3s infinite;
-    -o-animation: fadein 13s linear 3s infinite;
-    animation: fadein 13s linear 3s infinite;
+    -webkit-animation: fadein 19s linear 3s infinite;
+    -moz-animation: fadein 19s linear 3s infinite;
+    -ms-animation: fadein 19s linear 3s infinite;
+    -o-animation: fadein 19s linear 3s infinite;
+    animation: fadein 19s linear 3s infinite;
     opacity: 0;
 }
 
 #message6 {
     transform: scale(-1, -1);
     text-align: right;
-    -webkit-animation: fadein 17s linear 3s infinite;
-    -moz-animation: fadein 17s linear 3s infinite;
-    -ms-animation: fadein 17s linear 3s infinite;
-    -o-animation: fadein 17s linear 3s infinite;
-    animation: fadein 17s linear 3s infinite;
+    -webkit-animation: fadein 23s linear 3s infinite;
+    -moz-animation: fadein 23s linear 3s infinite;
+    -ms-animation: fadein 23s linear 3s infinite;
+    -o-animation: fadein 23s linear 3s infinite;
+    animation: fadein 23s linear 3s infinite;
     opacity: 0;
 }
 
